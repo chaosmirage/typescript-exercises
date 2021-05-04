@@ -110,11 +110,6 @@ filterUsers(persons, {
   age: 23,
 }).forEach(logPerson);
 
-// Передаем критерии
-// у criteria тип User, переданные критерии не совпадают с полями User (не хватает обязательных полей)
-// Нужно объяснить TS что это ок
-// Нужно описать тип на основе User в котором все поля которых нет в criteria, стали бы опциональными
-
 // In case if you are stuck:
 // https://www.typescriptlang.org/docs/handbook/advanced-types.html#mapped-types
 // https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html#predefined-conditional-types
